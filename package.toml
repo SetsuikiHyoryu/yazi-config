@@ -1,0 +1,4 @@
+[[flavor.deps]]
+use = "kmlupreti/ayu-dark"
+rev = "5f600aa"
+hash = "d5a1a9e40f43faceca48a00d7bda6be2"
