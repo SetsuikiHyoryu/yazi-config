@@ -1,0 +1,13 @@
+# 不知为何解决不了 Windows Terminal 中图片预览比例失调的问题。
+[preview]
+image_quality = 90
+
+[opener]
+edit = [
+  # `orphan` 模式可以使 Yazi 和编辑器独立运行，  
+  # 但是 Neovim 是终端工具，所以没法在同一屏幕和 Yazi 同时存在。  
+  # 所以用 `block` 阻塞 Yazi 最为合理。
+  { run = 'nvim "$@"', block = true, desc = "Neovim", for = "unix" },
+  { run = "nvim %*", block = true, desc = "Neovim", for = "windows" }
+]
+
