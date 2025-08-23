@@ -6,6 +6,12 @@
 
 - 添加书签插件 `yamb.yazi`。
 
+### Changed
+
+- 取消对 `flavors` 和 `plugins` 目录的追踪。  
+  此二目录性质等同于 `node_modules`，起初便在 `.gitignore` 追加了，  
+  但不知何故未生效。
+
 ## [0.1.0] - 2025-08-23
 
 ### Added (0.1.0)
