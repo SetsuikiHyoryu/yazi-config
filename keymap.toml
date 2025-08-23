@@ -1,0 +1,40 @@
+# [[yamb.yazi]]
+[[mgr.prepend_keymap]]
+on = [ "g", "b", "a" ]
+run = "plugin yamb save"
+desc = "Add bookmark"
+
+[[mgr.prepend_keymap]]
+on = [ "g", "b", "g" ]
+run = "plugin yamb jump_by_key"
+desc = "Jump bookmark by key"
+
+[[mgr.prepend_keymap]]
+on = [ "g", "b", "G" ]
+run = "plugin yamb jump_by_fzf"
+desc = "Jump bookmark by fzf"
+
+[[mgr.prepend_keymap]]
+on = [ "g", "b", "d" ]
+run = "plugin yamb delete_by_key"
+desc = "Delete bookmark by key"
+
+[[mgr.prepend_keymap]]
+on = [ "g", "b", "D" ]
+run = "plugin yamb delete_by_fzf"
+desc = "Delete bookmark by fzf"
+
+[[mgr.prepend_keymap]]
+on = [ "g", "b", "A" ]
+run = "plugin yamb delete_all"
+desc = "Delete all bookmarks"
+
+[[mgr.prepend_keymap]]
+on = [ "g", "b", "r" ]
+run = "plugin yamb rename_by_key"
+desc = "Rename bookmark by key"
+
+[[mgr.prepend_keymap]]
+on = [ "g", "b", "R" ]
+run = "plugin yamb rename_by_fzf"
+desc = "Rename bookmark by fzf"
