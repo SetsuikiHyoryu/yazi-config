@@ -1,19 +1,6 @@
 [flavor]
 dark = "ayu-dark"
 
-[mgr]
-border_symbol = " "
-
-[tabs]
-active   = { bg = "#fbaed2", bold = true }
-inactive = { fg = "#fbaed2", bg = "white", bold = true }
-sep_inner = { open = "", close = "" }
-sep_outer = { open = "", close = "" }
-
-[status]
-sep_left  = { open = "", close = "" }
-sep_right = { open = "", close = "" }
-
 [confirm]
 border = { fg = "#fbaed2" }
 title = { fg = "#fbaed2" }
