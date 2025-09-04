@@ -11,6 +11,11 @@ edit = [
   { run = "nvim %*", block = true, desc = "Neovim", for = "windows" }
 ]
 
+play = [
+  # { run = 'ffplay "$@"', block = true, desc = "FFplay", for = "macos" }
+  { run = "ffplay %1", block = true, desc = "FFplay", for = "windows" }
+]
+
 # [[git.yazi]]
 [[plugin.prepend_fetchers]]
 id   = "git"

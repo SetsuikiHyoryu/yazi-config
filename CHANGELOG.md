@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- 更改视频默认打开方式为 `ffplay` (Windows)。
+
 ## [0.2.0] - 2025-08-23
 
 ### Added (0.2.0)
