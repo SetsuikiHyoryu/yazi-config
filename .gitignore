@@ -3,3 +3,6 @@ plugins/
 
 # [[yamb.yazi]]
 bookmark
+
+# Package Version
+package.toml

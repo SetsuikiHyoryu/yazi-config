@@ -1,14 +1,14 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "d7588f6"
-hash = "e65e6528de15012b5ccdead4ed26b8bd"
+rev = "5d5c480"
+hash = "b94720e0ef40cb0e97093fabd9694775"
 
 [[plugin.deps]]
 use = "h-hg/yamb"
-rev = "22af003"
-hash = "7cc42012a7c2099f80064d228feb8d44"
+rev = "5f2e22e"
+hash = "699fe07e0d2d1b4af8dafb84168eeb04"
 
 [[flavor.deps]]
 use = "kmlupreti/ayu-dark"
-rev = "648a178"
-hash = "2ebdd4e3e00d6612bfa64dd7ca3dac4f"
+rev = "1da67a8"
+hash = "37590f87be607f8049bc6cabc5cc1ef4"
